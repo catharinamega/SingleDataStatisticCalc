@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FAA5E7516B989C42C1AD6065F8A041 /* SigmaSwiftStatistics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8111F385671614A627EEBE2FEA949C47 /* SigmaSwiftStatistics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032AA6CBE1304EDFB835CBB6B725FAD7 /* Sigma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210921AEB3DD9F6CB2E56547D7D57BF7 /* Sigma.swift */; };
+		0BE59CCFC8E50DFB80A7B5658C768AC3 /* SigmaSwiftStatistics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 152ECFB9DBA36419A5489E6D518677C3 /* SigmaSwiftStatistics-dummy.m */; };
+		1023DA7F5C3A02879AC76AB90B345353 /* Median.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC63E5C88AB13DC61F75FBF8580FD8A /* Median.swift */; };
+		1573C02FD8C751541CB87F5C8726EAB9 /* CoefficientVariation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70523BA014A5D7C09BFF75B7FB5BBC0 /* CoefficientVariation.swift */; };
+		19B1B1A3F5F6978DB5756A19A7E16D7A /* Percentile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD71CA30BCC16F2C60A98BA24D64021 /* Percentile.swift */; };
+		1E814397BB5D86090299BE78157DE096 /* Covariance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE066DFC2F5C4609CB7AA12BD1B3DC6A /* Covariance.swift */; };
+		2B5C3F7C6E611EDBE3A79D7725AD7091 /* Kurtosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B67FA9E4FDEF321218ADF004C2268A0 /* Kurtosis.swift */; };
+		39B906F45D9DC5F84BB0A06FC11C10EC /* Variance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785BEC90BEAD3FAE11EA21BD0F9CF70 /* Variance.swift */; };
+		485D9C34FC85F2EFCDF145E2E121CE9F /* Pearson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060054EAAA1577075E1DF7AA043B9482 /* Pearson.swift */; };
+		501C65495F79D5702FF930291E8EE918 /* Pods-NanoChallenge1_Catharina-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F39EEEB0E7192AFA0A2D23371EC215EE /* Pods-NanoChallenge1_Catharina-dummy.m */; };
+		54ED0943CAA74EAFCD2B515464A3306B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		57BFA1C2FD440A1AE7945B0B960A7210 /* UniqueValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = F953D6D5467FE9089BD74A8ADA0A968A /* UniqueValues.swift */; };
+		7E3EFD0432221C6BE67F98CABDF77FEE /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC28CCA90A2DDB31E355EB3DBE71B34 /* Rank.swift */; };
+		83E9D455857593D8B1303BD909CDD1EE /* StandardErrorOfTheMean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0FE3D7A329B7F21EBE46BA15DFADA /* StandardErrorOfTheMean.swift */; };
+		A3E105A4D45D23387850F2C3AC2519F0 /* StandardDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7BA2E0360EB6F57D98C2A701A338D /* StandardDeviation.swift */; };
+		AC86C2B307AAF3CF7B5EE25C28548B62 /* Skewness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0BC41E56BB385A365EDBD9D207F84 /* Skewness.swift */; };
+		B1B62762F806F93C3801A4D01BE02ADB /* Pods-NanoChallenge1_Catharina-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D11584296A7CF1E9FF07B708F7B5AB /* Pods-NanoChallenge1_Catharina-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B902B069477061C675A4D560097607 /* Normal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B55C76E9E0E4B5FFE3D2D92233E4D0 /* Normal.swift */; };
+		B580BD27AAEB522EE2ECA4485BD83284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F0E21124CDAFD7C777B66C7ECA37259E /* Quantiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1155DCDE37356BD043B38B1C4CA3F0 /* Quantiles.swift */; };
+		F9D94E8783B44A712F902A0719E627EC /* CentralMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD01E0B502CF56ED899716DE21D546D /* CentralMoment.swift */; };
+		FE440A524FAE11FA2CF67967701C1AF1 /* Frequencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25C9D494D05A427A485E23720630697 /* Frequencies.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C07EC64772EA9433EB5DF67C722FE1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92728B5A26D593E85BE984F4353EBE28;
+			remoteInfo = SigmaSwiftStatistics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03911601D53174387CDDA5EFA975B184 /* Pods-NanoChallenge1_Catharina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NanoChallenge1_Catharina.release.xcconfig"; sourceTree = "<group>"; };
+		060054EAAA1577075E1DF7AA043B9482 /* Pearson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pearson.swift; path = SigmaSwiftStatistics/Pearson.swift; sourceTree = "<group>"; };
+		0785BEC90BEAD3FAE11EA21BD0F9CF70 /* Variance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Variance.swift; path = SigmaSwiftStatistics/Variance.swift; sourceTree = "<group>"; };
+		085F135A5E913897489BFC045CB1E831 /* Pods-NanoChallenge1_Catharina-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NanoChallenge1_Catharina-Info.plist"; sourceTree = "<group>"; };
+		0AC28CCA90A2DDB31E355EB3DBE71B34 /* Rank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rank.swift; path = SigmaSwiftStatistics/Rank.swift; sourceTree = "<group>"; };
+		152ECFB9DBA36419A5489E6D518677C3 /* SigmaSwiftStatistics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SigmaSwiftStatistics-dummy.m"; sourceTree = "<group>"; };
+		1E34295D0440B088CA8629490C0BFE56 /* Pods-NanoChallenge1_Catharina-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NanoChallenge1_Catharina-acknowledgements.markdown"; sourceTree = "<group>"; };
+		210921AEB3DD9F6CB2E56547D7D57BF7 /* Sigma.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sigma.swift; path = SigmaSwiftStatistics/Sigma.swift; sourceTree = "<group>"; };
+		34C7BA2E0360EB6F57D98C2A701A338D /* StandardDeviation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardDeviation.swift; path = SigmaSwiftStatistics/StandardDeviation.swift; sourceTree = "<group>"; };
+		3EC63E5C88AB13DC61F75FBF8580FD8A /* Median.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Median.swift; path = SigmaSwiftStatistics/Median.swift; sourceTree = "<group>"; };
+		43876884F2DEEEB65AD9F342D1B062F7 /* SigmaSwiftStatistics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SigmaSwiftStatistics-Info.plist"; sourceTree = "<group>"; };
+		490853A49719ACD6F8A04C112079525A /* SigmaSwiftStatistics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SigmaSwiftStatistics.release.xcconfig; sourceTree = "<group>"; };
+		50B55C76E9E0E4B5FFE3D2D92233E4D0 /* Normal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Normal.swift; path = SigmaSwiftStatistics/Normal.swift; sourceTree = "<group>"; };
+		66F0BC41E56BB385A365EDBD9D207F84 /* Skewness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skewness.swift; path = SigmaSwiftStatistics/Skewness.swift; sourceTree = "<group>"; };
+		67D5642E0540E9BE7881F98309068641 /* Pods-NanoChallenge1_Catharina-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NanoChallenge1_Catharina-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B67FA9E4FDEF321218ADF004C2268A0 /* Kurtosis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kurtosis.swift; path = SigmaSwiftStatistics/Kurtosis.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76C08ED2A0544B9E81635959F8F56BF0 /* SigmaSwiftStatistics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SigmaSwiftStatistics-prefix.pch"; sourceTree = "<group>"; };
+		8111F385671614A627EEBE2FEA949C47 /* SigmaSwiftStatistics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SigmaSwiftStatistics-umbrella.h"; sourceTree = "<group>"; };
+		833D42D148A8212A3664D1E71A056A08 /* SigmaSwiftStatistics */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SigmaSwiftStatistics; path = SigmaSwiftStatistics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE0FE3D7A329B7F21EBE46BA15DFADA /* StandardErrorOfTheMean.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardErrorOfTheMean.swift; path = SigmaSwiftStatistics/StandardErrorOfTheMean.swift; sourceTree = "<group>"; };
+		9AD71CA30BCC16F2C60A98BA24D64021 /* Percentile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Percentile.swift; path = SigmaSwiftStatistics/Percentile.swift; sourceTree = "<group>"; };
+		9C1155DCDE37356BD043B38B1C4CA3F0 /* Quantiles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Quantiles.swift; path = SigmaSwiftStatistics/Quantiles.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25C9D494D05A427A485E23720630697 /* Frequencies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Frequencies.swift; path = SigmaSwiftStatistics/Frequencies.swift; sourceTree = "<group>"; };
+		AB613F145356E05625EAFC6F95603913 /* Pods-NanoChallenge1_Catharina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NanoChallenge1_Catharina.debug.xcconfig"; sourceTree = "<group>"; };
+		AE066DFC2F5C4609CB7AA12BD1B3DC6A /* Covariance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Covariance.swift; path = SigmaSwiftStatistics/Covariance.swift; sourceTree = "<group>"; };
+		B7A765900343EB6EB95253523FA9793E /* SigmaSwiftStatistics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SigmaSwiftStatistics.modulemap; sourceTree = "<group>"; };
+		B7D11584296A7CF1E9FF07B708F7B5AB /* Pods-NanoChallenge1_Catharina-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NanoChallenge1_Catharina-umbrella.h"; sourceTree = "<group>"; };
+		C1B5B4F189D8AA9655027D2B73E78691 /* Pods-NanoChallenge1_Catharina.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NanoChallenge1_Catharina.modulemap"; sourceTree = "<group>"; };
+		D68EA2E6551A2FD4C60B6BE31793E9E6 /* SigmaSwiftStatistics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SigmaSwiftStatistics.debug.xcconfig; sourceTree = "<group>"; };
+		DA5069AD915E20A79772316F95D58286 /* Pods-NanoChallenge1_Catharina */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NanoChallenge1_Catharina"; path = Pods_NanoChallenge1_Catharina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D1B003E9C8F79382207A276CE0F2D8 /* Pods-NanoChallenge1_Catharina-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NanoChallenge1_Catharina-frameworks.sh"; sourceTree = "<group>"; };
+		F39EEEB0E7192AFA0A2D23371EC215EE /* Pods-NanoChallenge1_Catharina-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NanoChallenge1_Catharina-dummy.m"; sourceTree = "<group>"; };
+		F70523BA014A5D7C09BFF75B7FB5BBC0 /* CoefficientVariation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoefficientVariation.swift; path = SigmaSwiftStatistics/CoefficientVariation.swift; sourceTree = "<group>"; };
+		F953D6D5467FE9089BD74A8ADA0A968A /* UniqueValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UniqueValues.swift; path = SigmaSwiftStatistics/UniqueValues.swift; sourceTree = "<group>"; };
+		FDD01E0B502CF56ED899716DE21D546D /* CentralMoment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CentralMoment.swift; path = SigmaSwiftStatistics/CentralMoment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57FB791209F343AE49175ACD95423D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B580BD27AAEB522EE2ECA4485BD83284 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE1DDB2EA31ED7BA15CDAAF72E6BA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54ED0943CAA74EAFCD2B515464A3306B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03914CBEA2D90781A5C652DA39850004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5069AD915E20A79772316F95D58286 /* Pods-NanoChallenge1_Catharina */,
+				833D42D148A8212A3664D1E71A056A08 /* SigmaSwiftStatistics */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D13D3EAD60C0493EF37A8ACC0A47602 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE184E519CE595A6E22A5D84E90E6357 /* Pods-NanoChallenge1_Catharina */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1ED9F2509C9B54076ECC88E5F4CE5DE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40E55BA16140DDB446A95EBC0E2289B8 /* SigmaSwiftStatistics */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		395E13EEA0525DBCBC443487D2ADCA70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7A765900343EB6EB95253523FA9793E /* SigmaSwiftStatistics.modulemap */,
+				152ECFB9DBA36419A5489E6D518677C3 /* SigmaSwiftStatistics-dummy.m */,
+				43876884F2DEEEB65AD9F342D1B062F7 /* SigmaSwiftStatistics-Info.plist */,
+				76C08ED2A0544B9E81635959F8F56BF0 /* SigmaSwiftStatistics-prefix.pch */,
+				8111F385671614A627EEBE2FEA949C47 /* SigmaSwiftStatistics-umbrella.h */,
+				D68EA2E6551A2FD4C60B6BE31793E9E6 /* SigmaSwiftStatistics.debug.xcconfig */,
+				490853A49719ACD6F8A04C112079525A /* SigmaSwiftStatistics.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SigmaSwiftStatistics";
+			sourceTree = "<group>";
+		};
+		40E55BA16140DDB446A95EBC0E2289B8 /* SigmaSwiftStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				FDD01E0B502CF56ED899716DE21D546D /* CentralMoment.swift */,
+				F70523BA014A5D7C09BFF75B7FB5BBC0 /* CoefficientVariation.swift */,
+				AE066DFC2F5C4609CB7AA12BD1B3DC6A /* Covariance.swift */,
+				A25C9D494D05A427A485E23720630697 /* Frequencies.swift */,
+				6B67FA9E4FDEF321218ADF004C2268A0 /* Kurtosis.swift */,
+				3EC63E5C88AB13DC61F75FBF8580FD8A /* Median.swift */,
+				50B55C76E9E0E4B5FFE3D2D92233E4D0 /* Normal.swift */,
+				060054EAAA1577075E1DF7AA043B9482 /* Pearson.swift */,
+				9AD71CA30BCC16F2C60A98BA24D64021 /* Percentile.swift */,
+				9C1155DCDE37356BD043B38B1C4CA3F0 /* Quantiles.swift */,
+				0AC28CCA90A2DDB31E355EB3DBE71B34 /* Rank.swift */,
+				210921AEB3DD9F6CB2E56547D7D57BF7 /* Sigma.swift */,
+				66F0BC41E56BB385A365EDBD9D207F84 /* Skewness.swift */,
+				34C7BA2E0360EB6F57D98C2A701A338D /* StandardDeviation.swift */,
+				8BE0FE3D7A329B7F21EBE46BA15DFADA /* StandardErrorOfTheMean.swift */,
+				F953D6D5467FE9089BD74A8ADA0A968A /* UniqueValues.swift */,
+				0785BEC90BEAD3FAE11EA21BD0F9CF70 /* Variance.swift */,
+				395E13EEA0525DBCBC443487D2ADCA70 /* Support Files */,
+			);
+			name = SigmaSwiftStatistics;
+			path = SigmaSwiftStatistics;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1ED9F2509C9B54076ECC88E5F4CE5DE7 /* Pods */,
+				03914CBEA2D90781A5C652DA39850004 /* Products */,
+				0D13D3EAD60C0493EF37A8ACC0A47602 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE184E519CE595A6E22A5D84E90E6357 /* Pods-NanoChallenge1_Catharina */ = {
+			isa = PBXGroup;
+			children = (
+				C1B5B4F189D8AA9655027D2B73E78691 /* Pods-NanoChallenge1_Catharina.modulemap */,
+				1E34295D0440B088CA8629490C0BFE56 /* Pods-NanoChallenge1_Catharina-acknowledgements.markdown */,
+				67D5642E0540E9BE7881F98309068641 /* Pods-NanoChallenge1_Catharina-acknowledgements.plist */,
+				F39EEEB0E7192AFA0A2D23371EC215EE /* Pods-NanoChallenge1_Catharina-dummy.m */,
+				E9D1B003E9C8F79382207A276CE0F2D8 /* Pods-NanoChallenge1_Catharina-frameworks.sh */,
+				085F135A5E913897489BFC045CB1E831 /* Pods-NanoChallenge1_Catharina-Info.plist */,
+				B7D11584296A7CF1E9FF07B708F7B5AB /* Pods-NanoChallenge1_Catharina-umbrella.h */,
+				AB613F145356E05625EAFC6F95603913 /* Pods-NanoChallenge1_Catharina.debug.xcconfig */,
+				03911601D53174387CDDA5EFA975B184 /* Pods-NanoChallenge1_Catharina.release.xcconfig */,
+			);
+			name = "Pods-NanoChallenge1_Catharina";
+			path = "Target Support Files/Pods-NanoChallenge1_Catharina";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B2D133CB1653353DA8D0CA64B2427F57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B62762F806F93C3801A4D01BE02ADB /* Pods-NanoChallenge1_Catharina-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAECEEC31E1FFE8798A493B58A265870 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FAA5E7516B989C42C1AD6065F8A041 /* SigmaSwiftStatistics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		92728B5A26D593E85BE984F4353EBE28 /* SigmaSwiftStatistics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB957EB3036337DC930240DF60AC6FB6 /* Build configuration list for PBXNativeTarget "SigmaSwiftStatistics" */;
+			buildPhases = (
+				FAECEEC31E1FFE8798A493B58A265870 /* Headers */,
+				E842EB37E59691DDCE7DA9153764E87E /* Sources */,
+				57FB791209F343AE49175ACD95423D53 /* Frameworks */,
+				83A8D33DC42B35098A88ECA436A1420D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigmaSwiftStatistics;
+			productName = SigmaSwiftStatistics;
+			productReference = 833D42D148A8212A3664D1E71A056A08 /* SigmaSwiftStatistics */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F9D6BEBC4888EF5743C81825E805109 /* Pods-NanoChallenge1_Catharina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59ECF5CAE951F35B24855F607B2CA237 /* Build configuration list for PBXNativeTarget "Pods-NanoChallenge1_Catharina" */;
+			buildPhases = (
+				B2D133CB1653353DA8D0CA64B2427F57 /* Headers */,
+				514196EEECC273BA86705FBCEA2D4446 /* Sources */,
+				9AE1DDB2EA31ED7BA15CDAAF72E6BA99 /* Frameworks */,
+				C6EC48022E3D7EF0DF7C5FDB664C526E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9D9D8537C4F35766904FBD6646EAE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-NanoChallenge1_Catharina";
+			productName = Pods_NanoChallenge1_Catharina;
+			productReference = DA5069AD915E20A79772316F95D58286 /* Pods-NanoChallenge1_Catharina */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 03914CBEA2D90781A5C652DA39850004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F9D6BEBC4888EF5743C81825E805109 /* Pods-NanoChallenge1_Catharina */,
+				92728B5A26D593E85BE984F4353EBE28 /* SigmaSwiftStatistics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A8D33DC42B35098A88ECA436A1420D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EC48022E3D7EF0DF7C5FDB664C526E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		514196EEECC273BA86705FBCEA2D4446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501C65495F79D5702FF930291E8EE918 /* Pods-NanoChallenge1_Catharina-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E842EB37E59691DDCE7DA9153764E87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D94E8783B44A712F902A0719E627EC /* CentralMoment.swift in Sources */,
+				1573C02FD8C751541CB87F5C8726EAB9 /* CoefficientVariation.swift in Sources */,
+				1E814397BB5D86090299BE78157DE096 /* Covariance.swift in Sources */,
+				FE440A524FAE11FA2CF67967701C1AF1 /* Frequencies.swift in Sources */,
+				2B5C3F7C6E611EDBE3A79D7725AD7091 /* Kurtosis.swift in Sources */,
+				1023DA7F5C3A02879AC76AB90B345353 /* Median.swift in Sources */,
+				B3B902B069477061C675A4D560097607 /* Normal.swift in Sources */,
+				485D9C34FC85F2EFCDF145E2E121CE9F /* Pearson.swift in Sources */,
+				19B1B1A3F5F6978DB5756A19A7E16D7A /* Percentile.swift in Sources */,
+				F0E21124CDAFD7C777B66C7ECA37259E /* Quantiles.swift in Sources */,
+				7E3EFD0432221C6BE67F98CABDF77FEE /* Rank.swift in Sources */,
+				032AA6CBE1304EDFB835CBB6B725FAD7 /* Sigma.swift in Sources */,
+				0BE59CCFC8E50DFB80A7B5658C768AC3 /* SigmaSwiftStatistics-dummy.m in Sources */,
+				AC86C2B307AAF3CF7B5EE25C28548B62 /* Skewness.swift in Sources */,
+				A3E105A4D45D23387850F2C3AC2519F0 /* StandardDeviation.swift in Sources */,
+				83E9D455857593D8B1303BD909CDD1EE /* StandardErrorOfTheMean.swift in Sources */,
+				57BFA1C2FD440A1AE7945B0B960A7210 /* UniqueValues.swift in Sources */,
+				39B906F45D9DC5F84BB0A06FC11C10EC /* Variance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C9D9D8537C4F35766904FBD6646EAE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SigmaSwiftStatistics;
+			target = 92728B5A26D593E85BE984F4353EBE28 /* SigmaSwiftStatistics */;
+			targetProxy = C07EC64772EA9433EB5DF67C722FE1C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C6B6795FA4E3394A0422EA33B6872CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03911601D53174387CDDA5EFA975B184 /* Pods-NanoChallenge1_Catharina.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NanoChallenge1_Catharina/Pods-NanoChallenge1_Catharina-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NanoChallenge1_Catharina/Pods-NanoChallenge1_Catharina.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D15C3EF39444290DA2CE1AF9DF7076B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68EA2E6551A2FD4C60B6BE31793E9E6 /* SigmaSwiftStatistics.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SigmaSwiftStatistics/SigmaSwiftStatistics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SigmaSwiftStatistics/SigmaSwiftStatistics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SigmaSwiftStatistics/SigmaSwiftStatistics.modulemap";
+				PRODUCT_MODULE_NAME = SigmaSwiftStatistics;
+				PRODUCT_NAME = SigmaSwiftStatistics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E1A4941A9ABA1B43F8E1CD04071DB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB613F145356E05625EAFC6F95603913 /* Pods-NanoChallenge1_Catharina.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NanoChallenge1_Catharina/Pods-NanoChallenge1_Catharina-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NanoChallenge1_Catharina/Pods-NanoChallenge1_Catharina.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8AFAE550A82E1AB66CFEAC4A220E4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490853A49719ACD6F8A04C112079525A /* SigmaSwiftStatistics.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SigmaSwiftStatistics/SigmaSwiftStatistics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SigmaSwiftStatistics/SigmaSwiftStatistics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SigmaSwiftStatistics/SigmaSwiftStatistics.modulemap";
+				PRODUCT_MODULE_NAME = SigmaSwiftStatistics;
+				PRODUCT_NAME = SigmaSwiftStatistics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59ECF5CAE951F35B24855F607B2CA237 /* Build configuration list for PBXNativeTarget "Pods-NanoChallenge1_Catharina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1A4941A9ABA1B43F8E1CD04071DB7C /* Debug */,
+				3C6B6795FA4E3394A0422EA33B6872CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB957EB3036337DC930240DF60AC6FB6 /* Build configuration list for PBXNativeTarget "SigmaSwiftStatistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D15C3EF39444290DA2CE1AF9DF7076B /* Debug */,
+				E8AFAE550A82E1AB66CFEAC4A220E4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

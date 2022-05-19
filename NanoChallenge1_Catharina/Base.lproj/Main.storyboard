@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NanoChallenge1_Catharina" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DN5-FZ-Uqh">
+                                <rect key="frame" x="10" y="94" width="394" height="400"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="7tM-tY-QT9"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="outputTVC" rowHeight="40" id="fjd-18-jZ9" customClass="outputTableViewCell" customModule="NanoChallenge1_Catharina" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="394" height="40"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fjd-18-jZ9" id="CmN-J8-grR">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="40"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f4R-5B-0gD">
+                                                    <rect key="frame" x="0.0" y="5" width="394" height="30"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBa-xD-SXh">
+                                                            <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="100" id="5oT-WQ-ZgS"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30u-kM-vx4">
+                                                            <rect key="frame" x="197" y="0.0" width="197" height="30"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="100" id="eOh-cM-cr8"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="f4R-5B-0gD" firstAttribute="top" secondItem="CmN-J8-grR" secondAttribute="top" constant="5" id="Fqo-ew-HLf"/>
+                                                <constraint firstAttribute="bottom" secondItem="f4R-5B-0gD" secondAttribute="bottom" constant="5" id="Ryi-3E-7IJ"/>
+                                                <constraint firstAttribute="trailing" secondItem="f4R-5B-0gD" secondAttribute="trailing" id="bn5-vU-hSe"/>
+                                                <constraint firstItem="f4R-5B-0gD" firstAttribute="leading" secondItem="CmN-J8-grR" secondAttribute="leading" id="h4X-f5-udH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="keyLabel" destination="bBa-xD-SXh" id="fUP-KO-RZ5"/>
+                                            <outlet property="valueLabel" destination="30u-kM-vx4" id="tIN-H8-c6u"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex: 11,12,13,14,15" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bUg-Qg-gfR">
+                                <rect key="frame" x="10" y="504" width="394" height="34"/>
+                                <accessibility key="accessibilityConfiguration" label="Masukkan data berupa angka dengan separator koma. Contoh: 11,12,13,14 dan seterusnya"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="blt-DS-add"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Output" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aop-Vo-p1y">
+                                <rect key="frame" x="99" y="516" width="217" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUf-Kb-gYk">
+                                <rect key="frame" x="132" y="581" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="TUK-fl-VI7"/>
+                                    <constraint firstAttribute="width" constant="150" id="li7-bq-ZUk"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Calculate">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="generateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sTK-2M-acc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="bUg-Qg-gfR" firstAttribute="top" secondItem="DN5-FZ-Uqh" secondAttribute="bottom" constant="10" id="Eas-a8-LNg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bUg-Qg-gfR" secondAttribute="trailing" constant="10" id="Hzw-Vi-oNu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DN5-FZ-Uqh" secondAttribute="trailing" constant="10" id="IUT-4T-CGm"/>
+                            <constraint firstItem="DN5-FZ-Uqh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="LZO-em-hJc"/>
+                            <constraint firstItem="bUg-Qg-gfR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="S0t-zb-G9X"/>
+                            <constraint firstItem="DN5-FZ-Uqh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="c97-Jq-4WH"/>
+                            <constraint firstItem="GUf-Kb-gYk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gAI-Nx-OQg"/>
+                            <constraint firstItem="bUg-Qg-gfR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n5u-yy-eN8"/>
+                            <constraint firstItem="GUf-Kb-gYk" firstAttribute="top" secondItem="bUg-Qg-gfR" secondAttribute="bottom" constant="43" id="oZM-Zw-9MN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="aop-Vo-p1y"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="dataField" destination="bUg-Qg-gfR" id="jhC-1J-zFG"/>
+                        <outlet property="outputTableView" destination="DN5-FZ-Uqh" id="YqV-wa-Wbh"/>
+                        <outlet property="outputTextView" destination="aop-Vo-p1y" id="oRz-Rn-zpL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Masukkan data" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Wn-y6-ir6">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="Vd8-DZ-aPa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

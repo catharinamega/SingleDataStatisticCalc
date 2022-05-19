@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "statkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JimmyMAndersson/StatKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "24967f937e5e6319f1ce4715caa94daf2d1ad595"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics.git",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}

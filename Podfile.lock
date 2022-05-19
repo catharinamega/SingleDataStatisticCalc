@@ -1,0 +1,16 @@
+PODS:
+  - SigmaSwiftStatistics (9.0.2)
+
+DEPENDENCIES:
+  - SigmaSwiftStatistics (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - SigmaSwiftStatistics
+
+SPEC CHECKSUMS:
+  SigmaSwiftStatistics: 4ec81cd50b0f397baddba05fe88ce228a66edd8c
+
+PODFILE CHECKSUM: a4b53d89330be410952bcd5e64f8a6bdbaa0ccee
+
+COCOAPODS: 1.11.3
